@@ -8,13 +8,17 @@
   <name>rpctest</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-  <dependency>
-  
- 
+  <dependency> 
         <groupId>com.xxx.rpc</groupId>
-        <artifactId>rpc-server</artifactId>
+        <artifactId>rpc-sample-api</artifactId>
         <version>1.3.0</version>
   </dependency>
+<dependency>
+<groupId>com.xxx.rpc</groupId>
+<artifactId>rpc-client</artifactId>
+<version>1.3.0</version>
+</dependency>
+<dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
